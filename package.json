@@ -1,0 +1,25 @@
+{
+  "name": "gentleman-store",
+  "version": "1.0.0",
+  "description": "Suit store project, using pure javascript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavospe/gentleman-store.git"
+  },
+  "keywords": [],
+  "author": "Gustavo Spengler",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gustavospe/gentleman-store/issues"
+  },
+  "homepage": "https://github.com/gustavospe/gentleman-store#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node": "^20.19.4"
+  }
+}

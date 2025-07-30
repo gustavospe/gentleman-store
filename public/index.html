@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gentleman Store</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header-container" style="display: flex; align-items: center; justify-content: space-between;">
+    <img src="assets/logo.png" alt="Gentleman Store" class="logo" height="120">
+    <form class="search-form" id="searchForm" style="flex:1; display:flex; justify-content:center;">
+      <input type="text" id="searchInput" placeholder="Buscar produto...">
+      <button type="submit">Buscar</button>
+    </form>
+    <ul class="menu" style="margin-left:24px;">
+      <li><a href="/" data-categoria="todos">Home</a></li>
+      <li><a href="/" data-categoria="terno">Ternos</a></li>
+      <li><a href="/" data-categoria="cinto">Cintos</a></li>
+      <li><a href="/" data-categoria="sapato">Sapatos</a></li>
+    </ul>
+  </header>
+  <main>
+    <section id="produtos-container" style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; padding: 40px 0; background: rgb(235, 235, 235);"></section>
+    <section id="carrinho-section" style="display:none; justify-content:center; align-items:flex-start; padding:40px 0;">
+      <div id="carrinho-content" style="background:#fff; border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.07); padding:32px 24px; min-width:320px; max-width:90vw;"></div>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
